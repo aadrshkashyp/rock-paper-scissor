@@ -67,17 +67,18 @@ function getbotPlay() {
   return play;
 }
 
-function getUserGuess() {
-  var userGuess = document.getElementById("userGuess").value;
-  return userGuess;
-}
+// Winner Guess
+// function getUserGuess() {
+//   var userGuess = document.getElementById("userGuess").value;
+//   return userGuess;
+// }
 
-function getWinner() {
-  if (userScore == 10) {
-    document.getElementById("guessMessage").innerHTML =
-      "<p>You guess right!</p>";
-  } else if (botScore == 10) {
-    document.getElementById("guessMessage").innerHTML =
-      "<p>You guess right!</p>";
-  }
-}
+// function getWinner() {
+//   if (userScore == 10) {
+//     document.getElementById("guessMessage").innerHTML =
+//       "<p>You guess right!</p>";
+//   } else if (botScore == 10) {
+//     document.getElementById("guessMessage").innerHTML =
+//       "<p>You guess right!</p>";
+//   }
+// }
