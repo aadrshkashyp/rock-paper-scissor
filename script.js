@@ -2,8 +2,8 @@ document.getElementById("rock").onclick = rockPlayed;
 document.getElementById("paper").onclick = paperPlayed;
 document.getElementById("scissors").onclick = scissorsPlayed;
 
-const userScore = 0;
-const botScore = 0;
+let userScore = 0;
+let botScore = 0;
 
 function rockPlayed() {
   play("rock");
@@ -65,4 +65,19 @@ function getbotPlay() {
   var plays = ["rock", "paper", "scissors"];
   var play = plays[Math.floor(Math.random() * plays.length)];
   return play;
+}
+
+function getUserGuess() {
+  var userGuess = document.getElementById("userGuess").value;
+  return userGuess;
+}
+
+function getWinner() {
+  if (userScore == 10) {
+    document.getElementById("guessMessage").innerHTML =
+      "<p>You guess right!</p>";
+  } else if (botScore == 10) {
+    document.getElementById("guessMessage").innerHTML =
+      "<p>You guess right!</p>";
+  }
 }
