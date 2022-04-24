@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Orelega+One&display=swap');
+
+body{
+  height: 100vh;
+  margin:0;
+  padding:0;
+  font-family: 'Orelega One', cursive;
+  text-align: center;
+  font-size: 1.2rem;
+ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M692.76 372.41L699.01 372.41L699.01 409.03L692.76 409.03z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M923.91 401.61 a27.35 27.35 0 1 0 54.7 0 a27.35 27.35 0 1 0 -54.7 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M926.94 479.77L962.24 479.77L962.24 515.07L926.94 515.07z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M343.12 107.83L380 107.83L380 144.71L343.12 144.71z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M75.81 250.13L124.31 250.13L124.31 298.63L75.81 298.63z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M34.86 196.41L41.62 196.41L41.62 203.17L34.86 203.17z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1374.45 5.84L1407.58 5.84L1407.58 48.69L1374.45 48.69z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M287.92 200.24L321.54 200.24L321.54 215.11L287.92 215.11z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M869.52 256.38L900.17 256.38L900.17 287.03L869.52 287.03z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M913.1 207.87 a33.29 33.29 0 1 0 66.58 0 a33.29 33.29 0 1 0 -66.58 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1288.76 221.22 a29.73 29.73 0 1 0 59.46 0 a29.73 29.73 0 1 0 -59.46 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1244.92 41.96 a3.24 3.24 0 1 0 6.48 0 a3.24 3.24 0 1 0 -6.48 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M268.76 361.29 a31.87 31.87 0 1 0 63.74 0 a31.87 31.87 0 1 0 -63.74 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M335.2 122.82L339.59 122.82L339.59 169.09L335.2 169.09z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M177.71 205.99 a0.75 0.75 0 1 0 1.5 0 a0.75 0.75 0 1 0 -1.5 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M851.33 156.28L895.41 156.28L895.41 200.36L851.33 200.36z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M643.18 2.36L661.58 2.36L661.58 20.76L643.18 20.76z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M750.42 63.39L778.07 63.39L778.07 91.04L750.42 91.04z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M378.02 103.46L383.63 103.46L383.63 109.07L378.02 109.07z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M312.31 434.98a47.14 47.14 0 1 0-81.75-46.96z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M94.68 576.37a44.72 44.72 0 1 0-10.38-88.84z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M322.21 154.14 a24.95 24.95 0 1 0 49.9 0 a24.95 24.95 0 1 0 -49.9 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M223.9 28.03L256.37 28.03L256.37 74.71L223.9 74.71z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1306.3 212.5L1323.69 212.5L1323.69 259.85L1306.3 259.85z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M587.81 250.49 a14.38 14.38 0 1 0 28.76 0 a14.38 14.38 0 1 0 -28.76 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M999.62 65.57L1000.24 65.57L1000.24 94.44L999.62 94.44z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M262.35 532.64L277.14 532.64L277.14 579.94L262.35 579.94z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1296.21 56.42 a0.41 0.41 0 1 0 0.82 0 a0.41 0.41 0 1 0 -0.82 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M158.89 180.37 a17.43 17.43 0 1 0 34.86 0 a17.43 17.43 0 1 0 -34.86 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M719.67 85.83 a11.58 11.58 0 1 0 23.16 0 a11.58 11.58 0 1 0 -23.16 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M733.17 484.75L788.48 484.75L788.48 540.06L733.17 540.06z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1362.58 58.44 a2.78 2.78 0 1 0 5.56 0 a2.78 2.78 0 1 0 -5.56 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1294.88 115.52 a46.35 46.35 0 1 0 92.7 0 a46.35 46.35 0 1 0 -92.7 0z' stroke='%23037b0b'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: cover;
+
+}
+
+
+
+.container{
+  margin: 100px;
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+#inside{
+  margin: auto;
+  width: 45%;
+  height: 50%;
+  /* background-color: #e2e2e2; */
+  border-radius: 25px;
+  padding: 2vh 0;
+}
+
+
+
+h1{
+  font-size: 3.2rem;
+  margin: 1vh 0;
+}
+
+p{
+  color: #000000;
+}
+
+hr{
+  width: 50%;
+
+}
+
+.preloader{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    margin: 0 auto;
+    background: #000000;
+}
+
+.preloader #loader-img {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 400px;
+    margin: -200px 0 0 -200px;
+    z-index: 1001;  
+    background-image: url('/images/preloader.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    z-index: 1020;
+    animation: rotation 2s infinite linear;
+
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+#instruction{
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.glass-card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.img-weapon{
+  max-width: 110px;
+  height: auto
+}
+
+.choice{
+  margin: 20px 0 0 10px;
+}
+
+.select-choice{
+  display: inline-block;
+  background: #EEF0F4;
+  border-radius: 5px;
+  box-shadow: inset 9.91px 9.91px 15px #D9DADE, inset -9.91px -9.91px 15px #FFFFFF;
+  margin: 1rem;
+  padding: 1rem;
+  transition: all 0.6s ease;
+}
+
+#rock:hover, #paper:hover, #scissors:hover{
+    background: #EEF0F4;
+    border-radius: 5px;
+    box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
+}
+
+
+
+.result{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+
+.win-border {
+  border: 5px solid #3bff00;
+  box-shadow: 2px 2px 12px #3e3e3e;
+}
+
+.lose-border{
+  border: 5px solid #ff0000;
+  box-shadow: 2px 2px 12px #3e3e3e;
+
+}
+
+.tie-border{
+  border: 5px solid #464647;
+  box-shadow: 2px 2px 12px #3e3e3e;
+}
+
+
+
+.scores {
+    -webkit-border-radius: 50px;
+    border-radius: 15px;
+    background: #D1D8EC;
+    -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+    box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+    margin: 5rem 0 2rem 0;
+    padding: 2rem 0 2rem 0;
+}
+
+.scores > p{
+  color: #000000;
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.scores >p > #userScore {
+    color: red;
+}
+
+.scores >p >  #botScore {
+    color: red;
+}
+
+.reset-button{
+    padding: 1rem;
+    background: #EEF0F4;
+    border-radius: 5px;
+
+}
+
+.reset-button:active {
+	position:relative;
+	top:1px;
+}
+.reset-button:hover {
+    border-radius: 5px;
+    box-shadow: inset 9.91px 9.91px 15px #D9DADE, inset -9.91px -9.91px 15px #FFFFFF;
+}
+
+.guess{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .guess input {
+      padding: 1rem;
+      border-radius: 5px;
+  }
+  .guess input:hover {
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+  .guess .glass-card:hover {
+      background-color: #000000;
+      color: rgb(248, 248, 248);
+      font-weight: 400;
+  }
+
+footer{
+  font-size: 0.7rem;
+  line-height: 0.3rem;
+  padding-top: 2vh;
+}
+
+.fab {
+  color: #000000;
+  margin: 0 5px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1200px){
+  #inside{
+    width: 65%;
+    /* height: 65%; */
+  }
+}
+
+@media (max-width: 992px){
+
+  #inside{
+    width: 70%;
+    /* height: 70%; */
+  }
+
+  .img-weapon{
+    max-width: 95px;
+    height: auto
+  }
+
+  .select-choice{
+    margin: 1vh 1vw;
+  }
+
+}
+
+@media (max-width: 768px){
+  #inside{
+    width: 80%;
+    /* height: 80%; */
+  }
+
+  .img-weapon{
+    max-width: 75px;
+    height: auto
+  }
+
+  .select-choice{
+    margin: 1vh 1vw;
+  }
+}
+
+@media (max-width: 576px){
+  #inside{
+    width: 90%;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  #instruction{
+    font-size: 1.3rem;
+  }
+
+  .scores > p{
+    font-size: 1.1rem;
+  }
+
+  .img-weapon{
+    max-width: 60px;
+    height: auto
+  }
+
+  .select-choice{
+    margin: 1vh 1vw;
+  }
+}

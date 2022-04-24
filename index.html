@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Play Rock Paper Scissors</title>
+    
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+
+     
+  </head>
+  <body>
+    
+    <!-- <div class="preloader">
+        <div id="loader-img"></div>
+    </div> -->
+
+    <div class="container glass-card">
+      <header>
+        <h1>Rock Paper Scissors</h1>
+      </header>
+
+      <div id="inside">
+        <p id="instruction">Select your Weapon:</p>
+
+        <div class="choice">
+          <div class="select-choice" id="rock">
+            <img
+              class="img-weapon"
+              src="./images/rock.png"
+              alt="Selection - rock"
+            />
+          </div>
+          <div class="select-choice" id="paper">
+            <img
+              class="img-weapon"
+              src="./images/paper.png"
+              alt="Selection - paper"
+            />
+          </div>
+          <div class="select-choice" id="scissors">
+            <img
+              class="img-weapon"
+              src="./images/scissors.png"
+              alt="Selection - scissors"
+            />
+          </div>
+        </div>
+
+        <div class="result">
+          <p id="message"></p>
+        </div>
+
+        <div class="scores">
+          <p class="total-score">Your score: <span id="userScore">0</span></p>
+          <span></span>
+          <p class="total-score">
+            Bot score: <span id="botScore">0</span>
+          </p>
+        </div>
+
+        <button class="reset-button glass-card" onClick="window.location.reload();""> reset score</button>
+      </div>
+
+      <footer>
+        <hr />
+
+        <div class="guess">
+            <p >Guess The Winner and Win the Source Code</p>
+            <input  type="text" placeholder="Type your winner guess" id="winner-guess">
+            <input class="glass-card" type="submit" id="guess-submit">
+          </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="./main.js"></script>
+    <script
+      type="text/javascript"
+      src="https://github-profile.com/dist/gh-profile-card.min.js"
+    ></script>
+    <script src="/script.js"></script>
+
+
+<script>
+    //after window is loaded completely 
+    window.onload = function(){
+        //hide the preloader
+        document.querySelector(".preloader").style.display = "none";
+    }
+</script>
+    
+  </body>
+</html>
