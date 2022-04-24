@@ -44,6 +44,23 @@ hr{
 
 }
 
+.button-main{
+  padding: 1rem;
+  background: #EEF0F4;
+  border-radius: 5px;
+
+}
+
+.button-main:active {
+position:relative;
+top:1px;
+}
+
+.button-main:hover {
+  border-radius: 5px;
+  box-shadow: inset 9.91px 9.91px 15px #D9DADE, inset -9.91px -9.91px 15px #FFFFFF;
+}
+
 .preloader{
 
     position: fixed;
