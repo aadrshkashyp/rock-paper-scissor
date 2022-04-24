@@ -45,9 +45,11 @@ hr{
 }
 
 .button-main{
-  padding: 1rem;
+  padding: 1rem 2rem!important;
   background: #EEF0F4;
   border-radius: 5px;
+  margin: 0 0.5rem;
+  font-weight: 600;
 
 }
 
